@@ -1,53 +1,106 @@
-html, body {
-    height: 50vh;
+@media screen and (max-width: 1440px) {
+  * {
+    /*margin-left:auto;
+margin-right: auto;*/
+    font-family: "poppins", sans-serif;
+    padding: 0;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  body {
+    background-color: black;
+    height: 100%;
     width: 100%;
-    box-sizing: border-box;
   }
-  
-  *{
-    margin: 0;
-    padding:0;
-  }
-  
-  main{
-    display:flex;
-    justify-content: center;
-    padding: 200px 150px;
-    place-items: center;
-    margin:auto;
-    flex-wrap: wrap;
-  }
-  main div{
-    /*margin-left: auto;
-    margin-right: auto;
-    margin-top: auto;*/
-    /*justify-content:center;*/
-    padding:20px;
-  
+
+  /*This is the main div*/
+
+  .div_0 {
+    background-color: #e00000;
     display: flex;
-    justify-content: center;
-    /*margin: auto;*/
-    place-items: center;
-    height:70vh;
-    background-color:red;
-    background-image: 
-    url("bg.png");
-    
+    height: 70%;
+    width: 100%;
+    padding: 1em;
+    padding-bottom: 2.5em;
+    background-image: url("bg.png");
+    margin-left: -4.5em;
+    margin-right: 0em;
+    margin-top: 5em;
+  }
+
+  .div_1 {
+    /*background-color: #e00000;*/
+    width: 50%;
+    padding: 20px;
+    text-align: justify;
+  }
+
+  .div_2 {
+    background-color: #ffffff;
+    padding: 0px;
+    width: 100%;
+    width: 3m;
+    border-radius: 10px;
+    display: inline-block;
+  }
+  /*Container for the free trial button snd the form */
+  .div_4 {
+    width: 50%;
+  }
+
+  #claim {
+    color: white;
+    background-color: green;
+  }
+/*this contains the button with terms and conditions*/
+  #terms {
+    font-size: 8px;
+    border-radius: 8px;
+    border: none;
+  }
+
+  strong{
+    color:#e00000;
+  }
+
+  #trial {
+    background-color: #070070;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px 10px;
+    width: 100%;
+    /* width:30em;*/
+    display: inline-blockk;
+  }
+}
+@media screen and (max-width: 375px) {
+  .div_0 {
+    flex-direction: column;
+    width:100%;
+  }
+
+  #trial {
+    width: 100%;
+    width: 18em;
+    color:#0f0c0c;
+    text-align: center;
+  }
+
+  .div_2 {
+    width: 100%;
+    width: 15.5em;
+    color:aliceblue;
   }
   .div_1{
-    font-size:15;
-    color: black;
-    width: 50%;
-    height: 50%;
-  
-    top: 50%;
-    bottom: 50%;
+     color: aliceblue;
+     text-align: justify;
+     font-size: 10px;
   }
-      
-    
-.div_2{
-    background-color:#c7baba;
-    width:25%;
-    height: 50%;
-    
+  strong{
+    /*color:#ffffff;*/
   }
+ 
+}
