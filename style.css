@@ -45,7 +45,7 @@ margin-right: auto;*/
     border-radius: 10px;
     display: inline-block;
   }
-  /*Container for the free trial button snd the form */
+  /*Container for the free trial button and the form */
   .div_4 {
     width: 50%;
   }
@@ -99,8 +99,5 @@ margin-right: auto;*/
      text-align: justify;
      font-size: 10px;
   }
-  strong{
-    /*color:#ffffff;*/
-  }
- 
+  
 }
