@@ -53,6 +53,9 @@ margin-right: auto;*/
   #claim {
     color: white;
     background-color: green;
+    cursor: pointer;
+    font-size: 8px;
+    justify-items: center;
   }
 /*this contains the button with terms and conditions*/
   #terms {
@@ -74,18 +77,21 @@ margin-right: auto;*/
     width: 100%;
     /* width:30em;*/
     display: inline-blockk;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 @media screen and (max-width: 375px) {
   .div_0 {
     flex-direction: column;
     width:100%;
+
   }
 
   #trial {
     width: 100%;
     width: 18em;
-    color:#0f0c0c;
+    color:#ebe1e1;
     text-align: center;
   }
 
@@ -93,6 +99,7 @@ margin-right: auto;*/
     width: 100%;
     width: 15.5em;
     color:aliceblue;
+    
   }
   .div_1{
      color: aliceblue;
@@ -100,4 +107,11 @@ margin-right: auto;*/
      font-size: 10px;
   }
   
+  .div_1 h3 , p{
+    text-align: justify;
+  }
+
+  strong{
+    color:#f3eaea;
+  }
 }
